@@ -1,0 +1,8 @@
+{
+  "name": "@fcbyk/sort",
+  "version": "0.0.2",
+  "description": "JavaScript排序算法",
+  "main": "index.js",
+  "author": "fcbyk",
+  "license": "ISC"
+}
