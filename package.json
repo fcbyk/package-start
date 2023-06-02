@@ -1,8 +1,17 @@
 {
   "name": "@fcbyk/sort",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "JavaScript排序算法",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "access": "public",
   "author": "fcbyk",
-  "license": "ISC"
+  "license": "ISC",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fcbyk/js-sort.git"
+  }
 }
