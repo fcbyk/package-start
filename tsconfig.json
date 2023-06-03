@@ -1,15 +1,16 @@
 {
-    "compilerOptions": {
-      "target": "ES6",
-      "module": "esnext" ,
-      "outDir": "dist",
-      "strict": true,
-      "declaration": true
-    },
-    "include": [
-      "src/**/*.ts"
-    ],
-    "exclude": [
-      "node_modules"
-    ]
-  }
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "outDir": "dist",
+    "strict": true,
+    "declaration": true,
+    "removeComments": true
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

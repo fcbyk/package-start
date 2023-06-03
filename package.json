@@ -1,17 +1,20 @@
 {
-  "name": "@fcbyk/sort",
-  "version": "0.0.3",
-  "description": "JavaScript排序算法",
+  "name": "@fcbyk/algorithms",
+  "version": "0.0.2",
+  "description": "JavaScript算法",
   "main": "dist/index.js",
   "access": "public",
   "author": "fcbyk",
   "license": "ISC",
+  "scripts": {
+      "compile":"tsc"
+  },
   "files": [
     "dist",
     "README.md"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fcbyk/js-sort.git"
+    "url": "git+https://github.com/fcbyk/js-algorithms.git"
   }
 }
