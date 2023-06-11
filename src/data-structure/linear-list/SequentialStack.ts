@@ -1,4 +1,4 @@
-export default class SequentialStack<T> {
+export class SequentialStack<T> {
   private stack: T[];
   private top: number;
 

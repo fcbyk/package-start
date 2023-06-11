@@ -1,15 +1,13 @@
-import * as algorithms from '../dist/algorithms/ort.js'
-import { foods,people } from "./data.js"
-import { SequentialStack } from "../dist/data-structure/linear-list/SequentialStack.js";
-import { LinkedStack } from "../dist/data-structure/linear-list/LinkedStack.js"
+import { foods, people } from "./data.js"
+import { SequentialStack, LinkedStack,selectSort,shellSort } from '../dist/index'
 
-algorithms.selectSort(foods,"price").print().reverse().print()
-algorithms.shellSort(people,"age").print()
+selectSort(foods,"price").print().reverse().print();
+shellSort(people,"age").print();
 
 (function main(){
     sequentialStackTest();
     linkedStackTest()
-})()
+})();
 
 // 测试顺序栈
 function sequentialStackTest(){

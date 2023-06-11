@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../browser/sort.global.js"></script>
+</head>
+<body>
+    <script>
+        const { selectSort } = sortAlg;
+        selectSort([
+            { name: "牛奶", price: 4 },
+            { name: "烤肠", price: 2.5 },
+            { name: "红糖馒头", price: 1.5 },
+            { name: "法棍", price: 7 }
+        ],"price").print();
+    </script>
+</body>
+</html>
