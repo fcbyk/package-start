@@ -1,12 +1,13 @@
 import { foods, people } from "./data.js"
-import { SequentialStack, LinkedStack,selectSort,shellSort } from '../dist/index'
+import { SequentialStack, LinkedStack,selectSort,shellSort,BinaryTree } from '../dist/index'
 
-selectSort(foods,"price").print().reverse().print();
-shellSort(people,"age").print();
+// selectSort(foods,"price").print().reverse().print();
+// shellSort(people,"age").print();
 
 (function main(){
-    sequentialStackTest();
-    linkedStackTest()
+    // sequentialStackTest();
+    // linkedStackTest();
+    BinaryTreeTest()
 })();
 
 // 测试顺序栈
@@ -38,4 +39,14 @@ function linkedStackTest(){
 
     console.log("Pop element:", linkedStack.pop());
     console.log("Peek element:", linkedStack.peek());
+}
+
+// 测试二叉树
+function BinaryTreeTest(){
+    let bt = new BinaryTree((a,b)=>a-b);
+    for(let i of [100,50,321,231,32,23]) bt.insert(i);
+    for(let i of [
+        bt,
+        bt.levelOrderTraversal()
+    ]) console.log(i);
 }

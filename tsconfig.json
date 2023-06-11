@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    // "watch": true,
+    "watch": true,
     "target": "esnext",
     "module": "esnext",
     "outDir": "dist",
