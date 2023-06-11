@@ -1,6 +1,6 @@
 {
   "name": "@fcbyk/start",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "写了一些方法，和数据结构",
   "main": "dist/index.js",
   "type": "module",
@@ -12,9 +12,9 @@
       "compile":"tsc",
       "publish":"npm publish --access public"
   },
-  
   "files": [
     "dist",
+    "browser",
     "README.md"
   ],
   "repository": {
